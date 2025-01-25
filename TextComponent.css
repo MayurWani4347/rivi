@@ -1,0 +1,43 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main container styling */
+  .text-container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f7fa;
+    min-height: 100vh; /* Ensure enough height for scrolling */
+    padding: 20px;
+  }
+  
+  /* Styled unordered list */
+  .list-text {
+    max-width: 600px;
+    list-style-type: none; /* Remove bullet points */
+    font-size: 2rem;
+    font-weight: 700;
+    color: #555;
+    line-height: 2.5;
+    padding: 0;
+  }
+  
+  .list-text li {
+    opacity: 0; /* Hidden by default */
+    transform: translateY(50px); /* Start slightly below */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    margin-bottom: 29px; /* Space between list items */
+  }
+  
+  .list-text li.visible {
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Slide to original position */
+  }
+  

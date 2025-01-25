@@ -1,0 +1,46 @@
+.contact-sales-container {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 40px 20px; */
+    background-color: #007bff; /* Optional: Background color */
+  }
+  
+  .contact-sales-container h2 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    max-width: 800px;
+    font-size: 3rem;
+    font-weight: bold;
+    /* line-height: 1.5; */
+    color: #fff; /* Text color */
+    margin-bottom: 20px;
+  }
+  
+  .contact-sales-button {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #007bff;
+    background-color: white; /* Button background color */
+    border: none;
+    border-radius: 18px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase; /* Optional: Makes the text uppercase */
+  }
+  
+  .contact-sales-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
+  .contact-sales-button:focus {
+    outline: none;
+    box-shadow: 0 0 4px #0056b3; /* Focus effect */
+  }
+  

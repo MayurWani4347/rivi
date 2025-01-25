@@ -1,0 +1,26 @@
+.image-with-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    margin-top: 50px;
+    font-size: 3rem; /* Large font for the heading */
+    font-weight: 700;
+    margin-bottom: 20px; /* Space between heading and video */
+    color: #333; /* Dark color for text */
+  }
+  
+  .viiiiideo {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px; /* Max width to prevent video from being too large */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for a sleek look */
+    margin-top: 20px; /* Space between the heading and the video */
+  }
+  

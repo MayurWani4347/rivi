@@ -1,0 +1,50 @@
+.box-container {
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 20px; Space between the two boxes */
+    /* padding: 40px; */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .box {
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 40%; /* Each box takes up about half of the container */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px #fff; /* Soft white shadow */
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom:25px;
+    max-width: 400px;
+  }
+  
+  ul {
+    margin-top: 40px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .checkmark {
+    /* color: green; */
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+ 
